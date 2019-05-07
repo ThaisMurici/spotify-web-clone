@@ -9,7 +9,7 @@ const Browse = () => (
     <Title>Navegar</Title>
 
     <List>
-      <Playlist>
+      <Playlist to="/playlists/1">
         <img
           src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/12/attachment_54865029.jpg"
           alt="Playlist"
@@ -17,7 +17,7 @@ const Browse = () => (
         <strong>Rock dos bons</strong>
         <p>Relaxe enquanto você programa ouvindo apenas as melhores do rock mundial.</p>
       </Playlist>
-      <Playlist>
+      <Playlist to="/playlists/1">
         <img
           src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/12/attachment_54865029.jpg"
           alt="Playlist"
@@ -25,7 +25,7 @@ const Browse = () => (
         <strong>Rock dos bons</strong>
         <p>Relaxe enquanto você programa ouvindo apenas as melhores do rock mundial.</p>
       </Playlist>
-      <Playlist>
+      <Playlist to="/playlists/1">
         <img
           src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/12/attachment_54865029.jpg"
           alt="Playlist"
@@ -33,7 +33,7 @@ const Browse = () => (
         <strong>Rock dos bons</strong>
         <p>Relaxe enquanto você programa ouvindo apenas as melhores do rock mundial.</p>
       </Playlist>
-      <Playlist>
+      <Playlist to="/playlists/1">
         <img
           src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/12/attachment_54865029.jpg"
           alt="Playlist"
