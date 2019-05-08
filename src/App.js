@@ -8,6 +8,7 @@ import { GlobalStyle } from './styles/global';
 
 import { Wrapper, Container, Content } from './styles/components';
 
+import ErrorBox from './components/ErrorBox';
 import Header from './components/Header';
 import Player from './components/Player';
 import SideBar from './components/Sidebar';
@@ -23,6 +24,7 @@ const App = () => (
         <Container>
           <SideBar />
           <Content>
+            <ErrorBox />
             <Header />
             <Routes />
           </Content>
